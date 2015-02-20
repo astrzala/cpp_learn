@@ -7,12 +7,7 @@ using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	int n, suma;
-	cout << "Siemanko" << endl;
-	cin >> n;
-	suma = n + n;
-	cout << "Suma: " << suma << endl;
-
+	printf("Hello world");
 	return 0;
 }
 
