@@ -2,12 +2,19 @@
 //
 
 #include "stdafx.h"
+#include <iostream>
 
 using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	printf("Hello world");
+	int n, suma;
+	cout << "Podaj jak¹ liczbê chcesz do siebie dodac: ";
+	cin >> n;
+	suma = n + n;
+	cout << "Suma dwoch liczb wynosi: " << suma << endl;
+
+	system("pause");
 	return 0;
 }
 
