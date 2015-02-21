@@ -8,10 +8,12 @@ using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	int n, suma;
-	cout << "Podaj jak¹ liczbê chcesz do siebie dodac: ";
+	int n,k, suma;
+	cout << "Liczba pierwsza: ";
 	cin >> n;
-	suma = n + n;
+	cout << "Liczba druga: ";
+	cin >> k;
+	suma = n + k;
 	cout << "Suma dwoch liczb wynosi: " << suma << endl;
 
 	system("pause");
